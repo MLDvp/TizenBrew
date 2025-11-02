@@ -1,3 +1,4 @@
+import CatalanLanguage from '../lang/cat.json';
 import DanishLanguage from '../lang/da.json';
 import GermanLanguage from '../lang/de.json';
 import GreekLanguage from '../lang/el.json';
@@ -19,6 +20,8 @@ import ChineseLanguage from '../lang/zh.json';
 import ArabicLanguage from '../lang/ar-sa.json';
 
 const resources = {
+  cat: {
+    translation: CatalanLanguage
   da: {
     translation: DanishLanguage
   },
